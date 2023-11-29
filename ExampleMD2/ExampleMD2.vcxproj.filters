@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shader Management">
+      <UniqueIdentifier>{7652c34b-93c7-4232-9f12-7409223a43ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{d8b11498-a143-45b6-9485-0e09f15d99ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\MD2 Models">
+      <UniqueIdentifier>{ea940e78-0d86-4b74-885e-2b0590a2415e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\MD2 Models\Robot">
+      <UniqueIdentifier>{121e9d5e-3f0d-4ba0-adb6-68a4db140b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\MD2 Models\Warrior">
+      <UniqueIdentifier>{e31c2784-fdba-48d9-81e4-9e5e9fb7a415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders">
+      <UniqueIdentifier>{cc3832b1-8b35-4fb7-8025-b06671f75e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vertex Objects">
+      <UniqueIdentifier>{07ecf1cf-7c71-4393-a3a2-85b528e801d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model Loaders">
+      <UniqueIdentifier>{5ba53568-5678-48a1-b70a-b64fca080cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{91f1c527-bb38-4fea-aae8-e510d791c987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{b28e3dba-e561-4898-985b-2ee55fd602ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\assets\models\robot\robot.md2">
+      <Filter>Assets\MD2 Models\Robot</Filter>
+    </None>
+    <None Include="..\assets\models\warrior\warrior.md2">
+      <Filter>Assets\MD2 Models\Warrior</Filter>
+    </None>
+    <None Include="..\assets\models\warrior\warrior.mtl">
+      <Filter>Assets\MD2 Models\Warrior</Filter>
+    </None>
+    <None Include="..\assets\shaders\basic.frag">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="..\assets\shaders\basic.vert">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\assets\models\robot\robot.png">
+      <Filter>Assets\MD2 Models\Robot</Filter>
+    </Image>
+    <Image Include="..\assets\models\warrior\warrior.jpg">
+      <Filter>Assets\MD2 Models\Warrior</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardManager.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="X11Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="md2Model.h">
+      <Filter>Model Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Shader Management</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Shader Management</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Shader Management</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgramManager.h">
+      <Filter>Shader Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Vertex Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferObject.h">
+      <Filter>Vertex Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Uniform.h">
+      <Filter>Shader Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Configuration.h" />
+    <ClInclude Include="EGLManager.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="MainLoop.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="X11Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="md2Model.cpp">
+      <Filter>Model Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Shader Management</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Shader Management</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Shader Management</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgramManager.cpp">
+      <Filter>Shader Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Vertex Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferObject.cpp">
+      <Filter>Vertex Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Uniform.cpp">
+      <Filter>Shader Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="EGLManager.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="MainLoop.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+</Project>
